@@ -4,7 +4,7 @@ Work through this list to go from "repo exists" to "taking paying clients."
 
 ## Website
 - [x] Site live on GitHub Pages
-- [x] Set contact email (wcvisuals@gmail.com)
+- [x] Set contact email (wcvisuals1@gmail.com)
 - [ ] Replace placeholder phone and service area in `contact.html` and `assets/js/main.js`
 - [ ] Set up Formspree and paste the ID into `assets/js/main.js` (see `payments-setup.md`)
 - [ ] Create Stripe/Square payment links and paste them into `pay.html`

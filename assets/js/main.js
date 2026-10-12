@@ -8,7 +8,7 @@ const SITE = {
   // (the part after /f/ in the form URL). Until then the form opens the
   // visitor's email app instead.
   formspreeId: "YOUR_FORMSPREE_ID",
-  email: "wcvisuals@gmail.com",
+  email: "wcvisuals1@gmail.com",
 };
 
 // --- Mobile nav ----------------------------------------------------------
