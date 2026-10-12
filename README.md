@@ -42,10 +42,9 @@ photography/
 
 ## Website hosting
 
-The site is hosted free on **GitHub Pages** at **https://sidaman1.github.io/photography/**
-(Settings → Pages → Deploy from a branch → `main` / root).
-
-To use a custom domain such as `wcphotography.com`, buy it, then add it under **Settings → Pages → Custom domain**.
+The site is hosted free on **GitHub Pages** at **https://wcphotography.org**
+(Settings → Pages → Deploy from a branch → `main` / root). The domain is registered at GoDaddy,
+and the `CNAME` file in this repo tells GitHub which domain to serve.
 
 Next, work through [`business/launch-checklist.md`](business/launch-checklist.md). It covers payment links, the contact form, photos and bios.
 

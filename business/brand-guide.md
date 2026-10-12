@@ -28,4 +28,4 @@ Friendly, confident and plainspoken. Talk about what the client gets (more custo
 - Instagram: @wcphotography
 - TikTok: @wcphotography (FPV clips do well here)
 - Facebook page and Google Business Profile: "WCphotography"
-- Domain: wcphotography.com
+- Domain: wcphotography.org

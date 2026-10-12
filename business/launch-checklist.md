@@ -4,7 +4,7 @@ Work through this list to go from "repo exists" to "taking paying clients."
 
 ## Website
 - [x] Site live on GitHub Pages
-- [ ] Replace placeholder email `hello@wcphotography.com`, phone and service area in `contact.html` and `assets/js/main.js`
+- [ ] Replace placeholder email `hello@wcphotography.org`, phone and service area in `contact.html` and `assets/js/main.js`
 - [ ] Set up Formspree and paste the ID into `assets/js/main.js` (see `payments-setup.md`)
 - [ ] Create Stripe/Square payment links and paste them into `pay.html`
 - [ ] Confirm prices in `pay.html` match `services-and-pricing.md`
@@ -12,7 +12,8 @@ Work through this list to go from "repo exists" to "taking paying clients."
 - [ ] Add 9+ of your best photos to `portfolio.html`
 - [ ] Optional: add a hero photo (see the comment in `styles.css` under `.hero`)
 - [ ] Update the Instagram link in every page's footer
-- [ ] Buy a domain and connect it under Settings → Pages
+- [x] Buy domain (wcphotography.org, GoDaddy)
+- [ ] Point GoDaddy DNS at GitHub Pages and turn on Enforce HTTPS
 
 ## Business
 - [ ] Register the business name (DBA or LLC) with your state
