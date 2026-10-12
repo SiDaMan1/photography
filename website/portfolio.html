@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | WCphotography</title>
+  <meta name="description" content="Business, product and FPV drone photography by WCphotography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="logo">WC<span>photography</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="pay.html" class="btn">Book &amp; Pay</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Portfolio</span>
+      <h1>Our Work</h1>
+      <p class="lead">A selection of business, product and aerial projects. Click any photo to view it full size.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="product">Product</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="aerial">FPV / Aerial</button>
+        <button class="filter-btn" data-filter="web">Websites</button>
+      </div>
+
+      <!--
+        HOW TO ADD A PHOTO
+        1. Put the image in website/assets/images/portfolio/ (JPG, ~2000px wide, under 500 KB)
+        2. Copy one block below and replace the placeholder <div> with:
+             <img src="assets/images/portfolio/your-photo.jpg" alt="Short description" loading="lazy">
+        3. Set data-category to: product, business, aerial or web
+      -->
+      <div class="gallery">
+        <div class="gallery-item" data-category="product"><div class="placeholder ph-product">&#128247;</div><div class="caption"><strong>Coffee Roaster Product Line</strong><span>Product</span></div></div>
+        <div class="gallery-item" data-category="aerial"><div class="placeholder ph-aerial">&#128641;</div><div class="caption"><strong>Lakefront Property Flythrough</strong><span>FPV / Aerial</span></div></div>
+        <div class="gallery-item" data-category="business"><div class="placeholder ph-business">&#127970;</div><div class="caption"><strong>Local Restaurant Interior</strong><span>Business</span></div></div>
+        <div class="gallery-item" data-category="product"><div class="placeholder ph-product">&#128087;</div><div class="caption"><strong>Apparel Flat Lays</strong><span>Product</span></div></div>
+        <div class="gallery-item" data-category="web"><div class="placeholder ph-web">&#128187;</div><div class="caption"><strong>Contractor Website Launch</strong><span>Websites</span></div></div>
+        <div class="gallery-item" data-category="aerial"><div class="placeholder ph-aerial">&#127966;</div><div class="caption"><strong>Construction Site Progress</strong><span>FPV / Aerial</span></div></div>
+        <div class="gallery-item" data-category="business"><div class="placeholder ph-business">&#128101;</div><div class="caption"><strong>Team Headshots</strong><span>Business</span></div></div>
+        <div class="gallery-item" data-category="aerial"><div class="placeholder ph-aerial">&#127951;</div><div class="caption"><strong>Event Venue Aerials</strong><span>FPV / Aerial</span></div></div>
+        <div class="gallery-item" data-category="web"><div class="placeholder ph-web">&#128241;</div><div class="caption"><strong>Boutique Shop Website</strong><span>Websites</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-band">
+    <div class="container center">
+      <h2>Like what you see?</h2>
+      <p class="lead">Let's make something like this for your business.</p>
+      <div class="btn-row"><a href="contact.html" class="btn">Get a Quote</a></div>
+    </div>
+  </section>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="">
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <a href="index.html" class="logo">WC<span>photography</span></a>
+      <ul class="footer-links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pay.html">Book &amp; Pay</a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; <span data-year></span> WCphotography &middot; Silas Whitt &amp; Chase Callanan</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

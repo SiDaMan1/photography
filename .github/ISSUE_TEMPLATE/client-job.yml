@@ -1,0 +1,52 @@
+name: New client job
+description: Track a lead or booked client from first contact to final payment
+title: "[Client] <Business name> – <service>"
+labels: ["client", "lead"]
+body:
+  - type: input
+    id: client
+    attributes:
+      label: Client / business name
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact info
+      description: Name, email, phone
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+        - Business / Product Photography
+        - FPV Drone Aerials
+        - Full Package (Photos + Website)
+        - Custom / Other
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Shoot date & location
+  - type: input
+    id: quote
+    attributes:
+      label: Quoted price & deposit
+  - type: textarea
+    id: notes
+    attributes:
+      label: Project notes / shot list
+  - type: checkboxes
+    id: progress
+    attributes:
+      label: Progress
+      options:
+        - label: Quote sent
+        - label: Deposit received
+        - label: Location / airspace checked (drone jobs)
+        - label: Shoot complete
+        - label: Photos edited & delivered
+        - label: Website launched (full package)
+        - label: Final payment received
+        - label: Asked for review / testimonial

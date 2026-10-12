@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book &amp; Pay | WCphotography</title>
+  <meta name="description" content="WCphotography packages and pricing. Pay deposits and invoices securely online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="logo">WC<span>photography</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="pay.html" class="btn">Book &amp; Pay</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Services &amp; Payments</span>
+      <h1>Book &amp; Pay</h1>
+      <p class="lead">Pick a package, pay your deposit securely online, and we'll reach out to schedule. Have an invoice from us already? Pay it at the bottom of this page.</p>
+    </div>
+  </section>
+
+  <!--
+    PAYMENT LINKS
+    Replace every href="#PAYMENT_LINK_..." below with a real payment link from
+    Stripe, Square or PayPal. See business/payments-setup.md for step-by-step instructions.
+  -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card" id="basic">
+          <div class="icon">&#128247;</div>
+          <h3>Business &amp; Product Photography</h3>
+          <div class="price">$250 <small>starting at</small></div>
+          <ul>
+            <li>Up to 2 hours on location</li>
+            <li>25+ professionally edited photos</li>
+            <li>Products, storefront, team or workspace</li>
+            <li>Web- and print-ready files</li>
+            <li>Online gallery delivery in 7 days</li>
+          </ul>
+          <a href="#PAYMENT_LINK_BASIC_DEPOSIT" class="btn">Pay $100 Deposit</a>
+        </div>
+
+        <div class="card" id="aerial">
+          <div class="icon">&#128641;</div>
+          <h3>FPV Drone Aerials</h3>
+          <div class="price">$400 <small>starting at</small></div>
+          <ul>
+            <li>FPV flythrough video (60&ndash;90 sec edit)</li>
+            <li>15+ edited aerial photos</li>
+            <li>Indoor and outdoor flights</li>
+            <li>Airspace check &amp; flight planning included</li>
+            <li>Great for real estate, venues &amp; construction</li>
+          </ul>
+          <a href="#PAYMENT_LINK_AERIAL_DEPOSIT" class="btn">Pay $150 Deposit</a>
+        </div>
+
+        <div class="card featured" id="full">
+          <span class="badge">Best Value</span>
+          <h3>Full Package: Photos + Website</h3>
+          <div class="price">$1,500 <small>starting at</small></div>
+          <ul>
+            <li>Full business &amp; product photo shoot</li>
+            <li>FPV drone flythrough + aerial photos</li>
+            <li>Custom 5-page website designed around your photos</li>
+            <li>Mobile-friendly, with contact form &amp; Google basics</li>
+            <li>Domain &amp; launch setup, plus 30 days of tweaks</li>
+          </ul>
+          <a href="#PAYMENT_LINK_FULL_DEPOSIT" class="btn">Pay $500 Deposit</a>
+        </div>
+      </div>
+      <p class="form-note center" style="margin-top:24px">Not sure which one fits? <a href="contact.html">Get a free custom quote</a>. Deposits go toward your final total.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container grid grid-2" style="align-items:center; gap:60px">
+      <div>
+        <span class="eyebrow">Already Booked?</span>
+        <h2>Pay an invoice</h2>
+        <p class="lead">Pay your remaining balance or any custom amount from your quote. All major cards, Apple Pay and Google Pay are accepted through our secure checkout.</p>
+        <div class="btn-row">
+          <a href="#PAYMENT_LINK_CUSTOM_AMOUNT" class="btn">Pay an Invoice</a>
+          <a href="contact.html" class="btn btn-outline">Questions About a Bill?</a>
+        </div>
+      </div>
+      <div>
+        <h3>Payment policy</h3>
+        <details><summary>When is the balance due?</summary><p>The remaining balance is due when your final gallery is delivered. Website projects are billed 50% up front and 50% at launch.</p></details>
+        <details><summary>Is my deposit refundable?</summary><p>Deposits hold your date and are non-refundable, but you can move them to a new date with 48 hours' notice. Weather reschedules are always free.</p></details>
+        <details><summary>Is paying online secure?</summary><p>Yes. Payments are handled by our payment processor. We never see or store your card number.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <a href="index.html" class="logo">WC<span>photography</span></a>
+      <ul class="footer-links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pay.html">Book &amp; Pay</a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; <span data-year></span> WCphotography &middot; Silas Whitt &amp; Chase Callanan</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+name: Business task
+description: Gear, marketing, website edits, admin, or anything else to do
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Website
+        - Marketing / social media
+        - Gear / equipment
+        - Admin / legal / finance
+        - Other
+  - type: textarea
+    id: details
+    attributes:
+      label: What needs to happen?
+    validations:
+      required: true
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Who's on it?
+      options:
+        - Silas
+        - Chase
+        - Both

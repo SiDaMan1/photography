@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | WCphotography</title>
+  <meta name="description" content="Get a free quote for business, product or FPV drone photography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="logo">WC<span>photography</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="pay.html" class="btn">Book &amp; Pay</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's talk about your project</h1>
+      <p class="lead">Fill out the form and we'll get back to you within one business day with ideas and a free quote.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2" style="align-items:start; gap:60px">
+      <form id="contact-form" class="form">
+        <div class="form-row">
+          <div><label for="name">Your name *</label><input id="name" name="name" required></div>
+          <div><label for="business">Business name</label><input id="business" name="business"></div>
+        </div>
+        <div class="form-row">
+          <div><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+          <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel"></div>
+        </div>
+        <div class="form-row">
+          <div>
+            <label for="service">Service *</label>
+            <select id="service" name="service" required>
+              <option value="">Choose one…</option>
+              <option value="basic">Business / Product Photography</option>
+              <option value="aerial">FPV Drone Aerials</option>
+              <option value="full">Full Package (Photos + Website)</option>
+              <option value="other">Not sure yet / Other</option>
+            </select>
+          </div>
+          <div><label for="date">Preferred date</label><input id="date" name="date" type="date"></div>
+        </div>
+        <div><label for="location">Shoot location (city or address)</label><input id="location" name="location"></div>
+        <div><label for="message">Tell us about your project *</label><textarea id="message" name="message" required placeholder="What are you selling or showing off? Where will the photos be used? Any deadlines?"></textarea></div>
+        <div><button type="submit" class="btn">Send Message</button></div>
+        <p class="form-status" role="status"></p>
+      </form>
+
+      <div>
+        <h3>Get in touch directly</h3>
+        <ul class="contact-list">
+          <li><strong>Email</strong><a href="mailto:hello@wcphotography.com">hello@wcphotography.com</a></li>
+          <li><strong>Phone / Text</strong><a href="tel:+10000000000">(000) 000-0000</a></li>
+          <li><strong>Service area</strong>Your City, State &amp; surrounding areas</li>
+          <li><strong>Instagram</strong><a href="https://instagram.com/" target="_blank" rel="noopener">@wcphotography</a></li>
+        </ul>
+
+        <h3>Quick answers</h3>
+        <details><summary>How fast do we get our photos?</summary><p>Most shoots are edited and delivered within 7 days. Need them sooner? Ask about rush delivery.</p></details>
+        <details><summary>Do you travel?</summary><p>Yes. Travel within our service area is included. Farther shoots may have a small travel fee.</p></details>
+        <details><summary>Can you fly the drone anywhere?</summary><p>Not everywhere. Some areas, like near airports, need FAA airspace authorization first. We check every location ahead of time and handle the paperwork.</p></details>
+        <details><summary>What if the weather is bad?</summary><p>Outdoor and drone shoots are rescheduled for free if the weather won't cooperate.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <a href="index.html" class="logo">WC<span>photography</span></a>
+      <ul class="footer-links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pay.html">Book &amp; Pay</a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; <span data-year></span> WCphotography &middot; Silas Whitt &amp; Chase Callanan</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
