@@ -1,6 +1,6 @@
 # Services & Pricing
 
-> The prices below are **starting placeholders**. Adjust them to your market, then update `website/pay.html` to match.
+> The prices below are **starting placeholders**. Adjust them to your market, then update `pay.html` to match.
 
 ## 1. Business & Product Photography: from $250
 - Up to 2 hours on location

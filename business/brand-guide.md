@@ -15,7 +15,7 @@
 | Muted text | `#A3A29D` |
 | Accent ("golden hour" amber) | `#E0A458` |
 
-These are set at the top of `website/assets/css/styles.css`.
+These are set at the top of `assets/css/styles.css`.
 
 ## Fonts
 - Headings: **Playfair Display** (Google Fonts)

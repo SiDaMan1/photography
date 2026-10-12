@@ -1,6 +1,6 @@
 # Setting Up Online Payments
 
-The website's **Book & Pay** page (`website/pay.html`) has four buttons that need real payment links:
+The website's **Book & Pay** page (`pay.html`) has four buttons that need real payment links:
 
 | Placeholder in `pay.html` | What it should charge |
 |---|---|
@@ -34,4 +34,4 @@ For full-package jobs and anything quoted custom, send a proper invoice from Str
 The contact form works right away by opening the visitor's email app. To get submissions delivered straight to your inbox:
 1. Sign up free at https://formspree.io and create a form.
 2. Copy the form ID (the part after `/f/` in the URL).
-3. Paste it into `website/assets/js/main.js` → `formspreeId`.
+3. Paste it into `assets/js/main.js` → `formspreeId`.

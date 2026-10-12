@@ -3,7 +3,7 @@
 Work through this list to go from "repo exists" to "taking paying clients."
 
 ## Website
-- [ ] Merge to `main`, then **Settings → Pages → Source: GitHub Actions**
+- [x] Site live on GitHub Pages
 - [ ] Replace placeholder email `hello@wcphotography.com`, phone and service area in `contact.html` and `assets/js/main.js`
 - [ ] Set up Formspree and paste the ID into `assets/js/main.js` (see `payments-setup.md`)
 - [ ] Create Stripe/Square payment links and paste them into `pay.html`
