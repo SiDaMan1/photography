@@ -25,7 +25,8 @@ These are set at the top of `assets/css/styles.css`.
 Friendly, confident and plainspoken. Talk about what the client gets (more customers, a better first impression) rather than gear specs.
 
 ## Social handles to grab
-- Instagram: @wcphotography
+- Instagram: @wcphotography11
 - TikTok: @wcphotography (FPV clips do well here)
-- Facebook page and Google Business Profile: "WCphotography"
+- Facebook: @WCphotography
+- Google Business Profile: "WCphotography"
 - Domain: wcphotography.org
