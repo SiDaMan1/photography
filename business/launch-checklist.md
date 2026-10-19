@@ -10,7 +10,7 @@ Work through this list to go from "repo exists" to "taking paying clients."
 - [x] Stripe payment links (3 deposits + invoice) added to `pay.html`
 - [x] Confirm prices in `pay.html` match `services-and-pricing.md`
 - [x] Write bios in `about.html`
-- [ ] Add photos of Silas (flying drone) and Chase (taking a photo) to `about.html`
+- [x] Add photos of Silas and Chase to `about.html`
 - [ ] Add 9+ of your best photos to `portfolio.html`
 - [ ] Optional: add a hero photo (see the comment in `styles.css` under `.hero`)
 - [x] Update the Instagram (@wcphotography11) and Facebook (@WCphotography) links in every page's footer
