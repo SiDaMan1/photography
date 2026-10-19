@@ -19,12 +19,14 @@
   .front .services { margin-top: 0.14in; font-size: 6pt; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
   .front .glow { position: absolute; right: -0.6in; top: -0.6in; width: 1.8in; height: 1.8in; border-radius: 50%; border: 1.2pt solid var(--accent); opacity: .18; }
 
-  .back .mark { position: absolute; right: 0.25in; top: 0.25in; width: 0.42in; }
-  .back .name { font-family: "Playfair Display", serif; font-weight: 700; font-size: 15pt; line-height: 1.1; }
-  .back .role { margin-top: 3pt; font-size: 5.6pt; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
-  .back .rule { width: 0.45in; height: 1pt; background: var(--accent); margin: 0.11in 0 0.1in; }
-  .back ul { list-style: none; font-size: 7pt; line-height: 1.6; }
-  .back li span { display: inline-block; width: 0.48in; font-size: 5pt; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .back .mark { position: absolute; right: 0.25in; top: 0.25in; width: 0.36in; }
+  .back .people { display: flex; gap: 0.22in; }
+  .back .name { font-family: "Playfair Display", serif; font-weight: 700; font-size: 11pt; line-height: 1.1; }
+  .back .role { margin-top: 2.5pt; font-size: 4.6pt; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); line-height: 1.35; }
+  .back .phone { margin-top: 4pt; font-size: 7pt; font-weight: 500; }
+  .back .rule { width: 0.45in; height: 1pt; background: var(--accent); margin: 0.12in 0 0.09in; }
+  .back ul { list-style: none; font-size: 6.6pt; line-height: 1.6; }
+  .back li span { display: inline-block; width: 0.44in; font-size: 4.8pt; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
   .back .city { position: absolute; right: 0; bottom: 0; font-size: 5pt; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
   .back .bar { position: absolute; left: 0; bottom: 0; width: 100%; height: 0.2in; background: var(--accent); } /* 0.075in visible after trim */
 </style>
@@ -42,11 +44,20 @@
     <div class="bar"></div>
     <img class="mark" src="../../assets/images/logo/logo-mark.svg" alt="">
     <div class="safe">
-      <div class="name" id="name"></div>
-      <div class="role" id="role"></div>
+      <div class="people">
+        <div>
+          <div class="name">Silas Whitt</div>
+          <div class="role">Co-Founder<br>Head Aerial Videographer</div>
+          <div class="phone">(256) 497-8305</div>
+        </div>
+        <div>
+          <div class="name">Chase Callanan</div>
+          <div class="role">Co-Founder<br>Head Photographer</div>
+          <div class="phone">(205) 723-8037</div>
+        </div>
+      </div>
       <div class="rule"></div>
       <ul>
-        <li><span>Phone</span><b id="phone" style="font-weight:500"></b></li>
         <li><span>Email</span>wcvisuals1@gmail.com</li>
         <li><span>Web</span>wcphotography.org</li>
         <li><span>Social</span>@wcphotography11</li>
@@ -54,14 +65,5 @@
       <div class="city">Huntsville, AL</div>
     </div>
   </div>
-
-<script>
-  const people = {
-    silas: { name: "Silas Whitt", role: "Co-Founder · Head Aerial Videographer", phone: "(256) 497-8305" },
-    chase: { name: "Chase Callanan", role: "Co-Founder · Head Photographer", phone: "(205) 723-8037" },
-  };
-  const p = people[new URLSearchParams(location.search).get("person")] || people.silas;
-  for (const k of ["name", "role", "phone"]) document.getElementById(k).textContent = p[k];
-</script>
 </body>
 </html>

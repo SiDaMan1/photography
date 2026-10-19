@@ -1,9 +1,6 @@
 # Business Cards
 
-Print-ready PDFs, one per person. Page 1 is the front (logo), page 2 is the back (contact info).
-
-- `silas-business-card.pdf`
-- `chase-business-card.pdf`
+One shared card for both founders: `wcphotography-business-card.pdf`. Page 1 is the front (logo), page 2 is the back (both names, titles and phone numbers, plus email, website and Instagram).
 
 Size: 3.5 × 2 in standard US card, with a 0.125 in bleed on every side (file is 3.75 × 2.25 in).
 
@@ -14,4 +11,4 @@ Size: 3.5 × 2 in standard US card, with a 0.125 in bleed on every side (file is
 4. If asked, confirm the file includes bleed. Check the proof before paying.
 
 ## Editing
-Change names, roles or phone numbers in `card.html` (the `people` list at the bottom), then re-export the PDFs.
+Change names, roles or contact details in `card.html`, then re-export the PDF.
