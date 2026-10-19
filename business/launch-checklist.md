@@ -9,7 +9,8 @@ Work through this list to go from "repo exists" to "taking paying clients."
 - [x] Set up Formspree (form ID in `assets/js/main.js`)
 - [ ] Re-create Stripe payment links (all three deposits) and add them to `pay.html`
 - [x] Confirm prices in `pay.html` match `services-and-pricing.md`
-- [ ] Write your bios and add headshots in `about.html`
+- [x] Write bios in `about.html`
+- [ ] Add photos of Silas (flying drone) and Chase (taking a photo) to `about.html`
 - [ ] Add 9+ of your best photos to `portfolio.html`
 - [ ] Optional: add a hero photo (see the comment in `styles.css` under `.hero`)
 - [x] Update the Instagram (@wcphotography11) and Facebook (@WCphotography) links in every page's footer
