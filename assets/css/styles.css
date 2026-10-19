@@ -223,6 +223,14 @@ p { margin: 0 0 1em; }
 .ph-business { background: linear-gradient(135deg, #1f2a30, #34495a); }
 .ph-aerial   { background: linear-gradient(135deg, #1b2b24, #2f5a48); }
 .ph-web      { background: linear-gradient(135deg, #2a2132, #4a3560); }
+.gallery-item:has(.placeholder)::before {
+  content: "Coming soon";
+  position: absolute; top: 12px; left: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent); color: var(--bg);
+  font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+}
 
 /* Lightbox */
 .lightbox {

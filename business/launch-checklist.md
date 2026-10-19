@@ -5,10 +5,10 @@ Work through this list to go from "repo exists" to "taking paying clients."
 ## Website
 - [x] Site live on GitHub Pages
 - [x] Set contact email (wcvisuals1@gmail.com)
-- [ ] Replace placeholder phone and service area in `contact.html` and `assets/js/main.js`
-- [ ] Set up Formspree and paste the ID into `assets/js/main.js` (see `payments-setup.md`)
-- [x] Create Stripe payment links and add them to `pay.html`
-- [ ] Confirm prices in `pay.html` match `services-and-pricing.md`
+- [x] Set phone numbers and service area (Huntsville, AL)
+- [x] Set up Formspree (form ID in `assets/js/main.js`)
+- [ ] Re-create Stripe payment links (all three deposits) and add them to `pay.html`
+- [x] Confirm prices in `pay.html` match `services-and-pricing.md`
 - [ ] Write your bios and add headshots in `about.html`
 - [ ] Add 9+ of your best photos to `portfolio.html`
 - [ ] Optional: add a hero photo (see the comment in `styles.css` under `.hero`)
