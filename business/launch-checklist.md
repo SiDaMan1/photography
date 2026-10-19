@@ -12,7 +12,7 @@ Work through this list to go from "repo exists" to "taking paying clients."
 - [ ] Write your bios and add headshots in `about.html`
 - [ ] Add 9+ of your best photos to `portfolio.html`
 - [ ] Optional: add a hero photo (see the comment in `styles.css` under `.hero`)
-- [ ] Update the Instagram link in every page's footer
+- [x] Update the Instagram (@wcphotography11) and Facebook (@WCphotography) links in every page's footer
 - [x] Buy domain (wcphotography.org, GoDaddy)
 - [ ] Point GoDaddy DNS at GitHub Pages and turn on Enforce HTTPS
 
