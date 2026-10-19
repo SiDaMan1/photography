@@ -7,7 +7,7 @@ Work through this list to go from "repo exists" to "taking paying clients."
 - [x] Set contact email (wcvisuals1@gmail.com)
 - [x] Set phone numbers and service area (Huntsville, AL)
 - [x] Set up Formspree (form ID in `assets/js/main.js`)
-- [ ] Re-create Stripe payment links (all three deposits) and add them to `pay.html`
+- [x] Stripe payment links (3 deposits + invoice) added to `pay.html`
 - [x] Confirm prices in `pay.html` match `services-and-pricing.md`
 - [x] Write bios in `about.html`
 - [ ] Add photos of Silas (flying drone) and Chase (taking a photo) to `about.html`
